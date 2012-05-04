@@ -37,10 +37,10 @@ class Parse {
 %%
   );
 
-  public function trace($TraceFILE, $zTracePrompt)
+  public function trace($yyTraceFILE, $yyTracePrompt)
   {
-    $this->yyTraceFILE = $TraceFILE;
-    $this->yyTracePrompt = $zTracePrompt;
+    $this->yyTraceFILE = $yyTraceFILE;
+    $this->yyTracePrompt = $yyTracePrompt;
 
     if ($yyTraceFILE === null)
       $this->yyTracePrompt = null;
