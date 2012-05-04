@@ -233,9 +233,12 @@ class Parse {
 %%
   }
 
-  private function yy_syntax_error($yymajor, $yyminor)
+  private function yy_syntax_error($yymajor, $yyminor = null)
   {
-    $message = 'Unexpected ' . $this->yy_token_name($yymajor) . '(' . $yyminor . ')';
+    $message = 'Unexpected ' . $this->yy_token_name($yymajor);
+    if (null !== $yyminor) {
+      $message .= '(' . $yyminor->value . ')';
+    }
 %%
   }
 
