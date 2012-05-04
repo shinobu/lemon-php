@@ -330,7 +330,7 @@ class Parse {
             }
           }
 
-          $yypParser->yyerrcnt = 3;
+          $this->yyerrcnt = 3;
           $yyerrorhit = 1;
         }
         else
