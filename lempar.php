@@ -249,7 +249,7 @@ class Parse {
 %%
   }
 
-  private function doParse($yymajor, $yyminor = null) 
+  public function doParse($yymajor, $yyminor = null)
   {
     $yyact = 0; /* The parser action. */
     $yyendofinput = 0; /* True if we are at the end of input */
