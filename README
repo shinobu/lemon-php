@@ -1,3 +1,7 @@
+--
+This Fork is made for use on https://github.com/shinobu/PHP-SparqlParser
+It is based on https://github.com/indeyets/lemon-php Fork from https://github.com/wez/lemon-php/
+--
 (for licensing and copyright information, see COPYING)
 
 This is an adaptation of lemon that optionally emits PHP code to implement a
