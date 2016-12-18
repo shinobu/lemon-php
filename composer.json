@@ -1,0 +1,24 @@
+{
+    "name": "shinobu/lemon-php",
+    "type": "library",
+    "description": "Parser Generator for PHP",
+    "keywords": ["parser-generator"],
+    "homepage": "https://github.com/shinobu/lemon-php",
+    "license": "public domain",
+    "authors": [
+        {
+            "name": "wez",
+            "homepage": "https://github.com/wez"
+        },
+        {
+            "name": "indeyets",
+            "homepage": "https://github.com/indeyets"
+        }
+    ],
+    "scripts": {
+        "pre-autoload-dump": [
+            "cc -o lemon lemon.c"
+        ]
+    },
+    "bin": ["lemon"]
+}
