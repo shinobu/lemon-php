@@ -19,6 +19,5 @@
         "pre-autoload-dump": [
             "cc -o lemon lemon.c"
         ]
-    },
-    "bin": ["lemon"]
+    }
 }
